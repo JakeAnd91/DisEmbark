@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <ul>
-          <li><a href="/"><img src="https://cdn2.iconfinder.com/data/icons/ui-kit-developer-glyphs/16/GlyphIcons-Home-512.png" alt="Home" /></a></li>
-          <li><a href="/about">About</a></li>
+        <ul class="navbar">
+          <li class="icon"><a href="/"><img src="https://cdn2.iconfinder.com/data/icons/ui-kit-developer-glyphs/16/GlyphIcons-Home-512.png" alt="Home" /></a></li>
+          <li class="icon"><a href="/about">About</a></li>
         </ul>
       </nav>
       <h1>DisEmbark</h1>
@@ -32,10 +32,10 @@ const Footer = () => {
   return (
     <footer>
       <nav>
-        <ul>
-          <li><a href="/">Account</a></li>
-          <li><a href="/about">Home</a></li>
-          <li><a href="/contact">Favorites</a></li>
+        <ul class="navbar">
+          <li class="icon"><a href="/">Account</a></li>
+          <li class="icon"><a href="/about">Home</a></li>
+          <li class="icon"><a href="/contact">Favorites</a></li>
         </ul>
       </nav>
     </footer>
