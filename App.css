@@ -1,0 +1,94 @@
+header nav ul
+footer nav ul {
+  padding: 0;
+  text-align: center; /* Center align the navigation */
+}
+
+header nav ul li, 
+footer nav ul li {
+  display: inline-block; /* Display list items inline */
+  margin: 0 10px; /* Add margin between list items */
+}
+
+header {
+  position: fixed; /* Set the position to fixed */
+  top: 0; /* Position the header at the top of the viewport */
+  left: 0; /* Position the header at the left of the viewport */
+  width: 100%; /* Make the header span the full width of the viewport */
+  background-color: #333; /* Example background color for the header */
+  padding: 10px 0; /* Add padding to the header for spacing */
+  z-index: 1000; /* Ensure the header appears above other content */
+}
+
+footer {
+  position: fixed; /* Set the position to fixed */
+  bottom: 0; /* Position the footer at the bottom of the viewport */
+  left: 0; /* Position the footer at the left of the viewport */
+  width: 100%; /* Make the footer span the full width of the viewport */
+  background-color: #333; /* Example background color for the footer */
+  padding: 10px 0; /* Add padding to the footer for spacing */
+  z-index: 1000; /* Ensure the footer appears above other content */
+}
+
+header nav ul li img,
+footer nav ul li img {
+  width: 12.5vw; /* Set the width of the images to one-eighth (12.5%) of the viewport width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
