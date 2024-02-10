@@ -5,6 +5,8 @@ const Tag = ({ name }) => {
 
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
+
+    //Firebase stuff
   };
 
   return (

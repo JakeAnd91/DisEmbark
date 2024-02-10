@@ -8,7 +8,12 @@ function HomePage() {
     <div>
       <h2>Welcome to Our Website!</h2>
       <p>This is the homepage of our app.</p>
+
+
+      
       <Pin cat='GlutenFree' />
+
+
       <img src={homepageImage} alt="Homepage" />
       <Tag name="Gluten Free"/>
       <Tag name="Wheelchair"/>
