@@ -10,11 +10,15 @@ import MyComponent from './components/button.icon/home.icon.button';
 import React from 'react';
 import LoginPage from './LoginPage';
 
+import Fr from '../fr.input/fr';
+
 function App() {
   return (
     <div className="App">
       // Landing Page with authorization
       <h1>Welcome to Disembark!</h1>
+
+
       <LoginPage/>
       <h2>_____________________________</h2>
       // Home Page 
