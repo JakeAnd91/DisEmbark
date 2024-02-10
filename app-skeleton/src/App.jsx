@@ -5,6 +5,7 @@ import './App.css'
 import HomePage from './HomePage';
 import UserInfo from './UserInfo';
 import Acommadations from './Acommadations';
+import MyComponent from './components/button.icon/home.icon.button';
 
 import React from 'react';
 import LoginPage from './LoginPage';
@@ -25,6 +26,7 @@ function App() {
       // Accomadations Page
       <Acommadations />
       <h2>_____________________________ </h2>
+      <MyComponent />
 
 
       
