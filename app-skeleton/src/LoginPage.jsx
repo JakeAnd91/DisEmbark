@@ -1,16 +1,9 @@
 import React, { useState } from 'react';
+import Fr from '../fr.input/fr'
 
 function LoginPage() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-
-  const handleUsernameChange = (event) => {
-    setUsername(event.target.value);
-  };
-
-  const handlePasswordChange = (event) => {
-    setPassword(event.target.value);
-  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -27,24 +20,10 @@ function LoginPage() {
       <h2>Sign in Here!</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="username">Username: </label>
-          <input
-            type="text"
-            id="username"
-            value={username}
-            onChange={handleUsernameChange}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="password">Password: </label>
-          <input
-            type="password"
-            id="password"
-            value={password}
-            onChange={handlePasswordChange}
-            required
-          />
+          <Fr prompt="Username: " placeholder="Username"/>
+          &nbsp;
+          <Fr hideCharacters prompt="Password: " placeholder="Password"/>
+          &nbsp;
         </div>
         <button type="submit">Login</button>
       </form>
